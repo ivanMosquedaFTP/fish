@@ -24,6 +24,8 @@ alias query='sudo pacman -Q'
 alias yquery='yay -Q'
 alias remove='sudo pacman -R'
 alias yremove='yay -R'
+alias clearCache='sudo pacman -Scc'
+alias yClearCache='cd /home/toreve/.cache/yay && sudo rm -rf *'
 
 #services aliases
 alias statusService='sudo systemctl status'
@@ -32,6 +34,9 @@ alias restartService='sudo systemctl restart'
 alias stopService='sudo systemctl stop'
 alias enableService='sudo systemctl enable'
 alias disableService='sudo systemctl disable'
+
+#lsp aliases
+alias j='clear && java main.java'
 
 #configuration files aliases
 alias fishc='sudo vim /etc/fish/config.fish'
