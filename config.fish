@@ -11,6 +11,10 @@ alias cdc='cd /home/toreve/projects/c'
 alias cdpp='cd /home/toreve/projects/python'
 alias cdw='cd /home/toreve/projects/web'
 
+#fzf aliases
+alias fsearch='fzf --preview="bat --color=always {}"'
+alias fnvim='nvim $(fzf --preview="bat --color=always {}")'
+
 #package manager aliases
 alias update='sudo pacman -Syy'
 alias yupdate='yay -Syy'
